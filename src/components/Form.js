@@ -22,7 +22,7 @@ const Form = ({
     e.preventDefault();
     if (inputText == "") {
       alert("Empty todo");
-    } else if (/[^a-z]/i.test(inputText)) {
+    } else if (/[^a-z\s]/i.test(inputText)) {
       alert("Invalid todo");
     } else {
       setTodos([
