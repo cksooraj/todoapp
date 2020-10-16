@@ -1,5 +1,5 @@
 import React from "react";
-import Popup from "reactjs-popup";
+
 const Todo = ({ text, todo, todos, setTodos, date }) => {
   //delete marking
   const deleteHandler = () => {
